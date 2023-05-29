@@ -44,3 +44,9 @@ th{
 .outro{
     background-color:  lightgoldenrodyellow;
 }
+
+td.folga{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.767);
+}
