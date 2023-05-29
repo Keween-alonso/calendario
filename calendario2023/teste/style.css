@@ -50,3 +50,18 @@ td.folga{
     font-weight: bold;
     background-color: rgba(255, 0, 0, 0.767);
 }
+
+/*Adaptando essa porra pra celular*/
+
+@media screen and (max-width:500px) {
+    section{
+        width: 100%;
+        display: block;
+    }
+    table{
+        display: table;
+        width: 300px;
+        margin: 1em auto;
+    }
+
+}
