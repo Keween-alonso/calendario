@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+
+h1{
+    position: sticky;
+    top: 0;
+    display: block;
+    text-align: center;
+    background: lightgrey;
+    
+}
+
+section{
+    margin: 0 auto;
+    width: 1040px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+table{
+    margin: 1em;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.5em;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+td, th{
+    background-color: white;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th{
+    background-color: yellow;
+}
+
+.outro{
+    background-color:  lightgoldenrodyellow;
+}
